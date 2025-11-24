@@ -4,7 +4,7 @@ itioner (AC)** on or off based on environmental conditions.
 
 ## 🌍 Project Description
 
-We simulate an IoT environment with **three sensors**:
+We have an IoT environment with **three sensors**:
 
 | Sensor | Range | Description |
 |---------|--------|-------------|
