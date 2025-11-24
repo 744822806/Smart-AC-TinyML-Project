@@ -66,8 +66,7 @@ Smart-AC-TinyML/
 ├── LICENSE
 └── .gitignore
 
-pgsql
-复制代码
+
 
 ---
 
@@ -105,7 +104,6 @@ open("ann_tflite_model.tflite", "wb").write(tflite_model)
 ⚙️ ESP32 TinyML Inference Code
 predict.c
 c
-复制代码
 #include <stdbool.h>
 
 bool predict(int temperature, int light, int humidity) {
@@ -115,7 +113,6 @@ bool predict(int temperature, int light, int humidity) {
 }
 main.c
 c
-复制代码
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -138,7 +135,6 @@ void app_main() {
 Below is the actual output from the ESP-IDF 5.3 terminal running the AC predictor program:
 
 yaml
-复制代码
 temp: 44.0°C  light: 54.5%  hum: 89.0%  → AC: off
 temp: 38.9°C  light: 80.0%  hum: 45.8%  → AC: off
 temp: 20.8°C  light: 63.5%  hum: 0.7%   → AC: off
